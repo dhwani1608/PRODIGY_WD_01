@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: #e3f2fd;
+    color: rgb(29, 28, 28);
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 10vh;
+}
+
+a{
+    border: solid rgb(141, 211, 234) 2px;
+    padding: 6px;
+    border-radius: 10px;
+}
+
+.sign-in{
+    border: none;
+    color: rgb(5, 137, 5);
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+figure{
+    text-align: center;
+}
+
+.carousel img{
+    height: 40rem;
+    image-resolution: initial;
+    object-fit: contain;
+}
+
+.carousel{
+    background-color: rgb(43, 41, 41);
+}
+
+.nav-change {
+    border: none;
+    background-color: rgb(54, 52, 52);
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.politics{
+    color: red;
+    font-weight: bolder;
+}
+
+.political{
+    background-color: rgb(1, 1, 96);
+}
+
+.env{
+    background-color: rgb(3, 79, 3);
+}
